@@ -1,0 +1,207 @@
+.nav .dd {
+    display: none;
+}
+
+.product {
+    margin: 6px auto;
+}
+
+.preview-wrap {
+    width: 452px;
+    float: left;
+}
+
+.mv {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #e3e4e5;
+    overflow: hidden;
+    background: url(../upload/10001.jpg);
+    background-size: 100%,100%;
+}
+
+.mv i {
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    right: 0px;
+    width: 30px;
+    height: 38px;
+    background: url(../images/10003.png) 0, 0 no-repeat;
+}
+
+.mv .play {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/play.png) 0 -55px no-repeat;
+    /* background-position:; */
+    overflow: hidden;
+    opacity: 0.5;
+    z-index: 5;
+}
+.mv .img img{
+    width: 100%;
+    height: 100%;
+}
+.mv .pase{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-size: 17px;
+    z-index: 99;
+}
+.mv .black{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.mv video {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.spec-list {
+    position: relative;
+    margin-top: 10px;
+    width: 450px;
+    height: 58px;
+}
+
+.spec-list .il {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 22px;
+    height: 32px;
+    background: url(../images/10003.png) no-repeat;
+    background-position: 0 -54px;
+    z-index: 5;
+}
+
+.spec-list .ir {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 22px;
+    height: 32px;
+    background: url(../images/10003.png) no-repeat;
+    background-position: -78px 0;
+    z-index: 5;
+}
+
+.spec_item {
+    position: absolute;
+    left: 27px;
+    width: 400px;
+    height: 58px;
+    overflow: hidden;
+}
+
+.spec_item ul {
+    width: 720px;
+    height: 58px;
+}
+
+.spec_item ul li {
+    margin-left: 19px;
+    float: left;
+}
+
+.spec_item ul li img:hover {
+    border: 1px solid rgb(255, 0, 0);
+
+}
+
+.itemInfo-wrap {
+    width: 738px;
+    float: right;
+}
+
+.sku-name {
+    font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+    padding-top: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.news{
+    color: #e4393c;
+    margin-bottom: 5px;
+}
+.news .item{
+    text-overflow: ellipsis;
+    max-height: 1.5em;
+    line-height: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.summary-price-wrap{
+    width: 100%;
+    height: 42px;
+    background-color: #f3f3f3;
+}
+
+.summary-left{
+    float: left;
+    width: 650px;
+    border-right: 1px solid #e3e4e5;
+}
+
+.summary-right{
+    float: right;
+    width: 88px;
+    text-align: center;
+}
+
+.summary-left .dt{
+    float: left;
+    line-height: 42px;
+    padding-left: 10px;
+    font-family: simsun;
+    color: #999
+}
+.summary-left .dd{
+    float: left;
+    margin-left: 18px;
+}
+
+.summary-left .dd{
+    font-size: 16px
+}
+
+.summary-left .dd .price{
+    font-size: 22px;
+    color: #e4393c;
+}
+
+.summary-left .dd a{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #005aa0;
+    vertical-align: 2px;
+}
+
+.summary-right a{
+    color: #005aa0;
+    font-size: 15px;
+}
+
+.summary-right .comment{
+    color:  #999;
+}
